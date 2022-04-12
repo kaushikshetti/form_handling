@@ -34,11 +34,11 @@ floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
         child:ListView(
           children: <Widget>[
             UserAccountsDrawerHeader(
-              accountEmail:Text("Email@gmail.com") ,
+              accountEmail:Text("kshetti29@gmail.com") ,
               accountName: Text("Flutter developer beginner"),
               currentAccountPicture: ClipRRect(
                 borderRadius: BorderRadius.circular(30),
-                child: Image.asset( "assets\images\Photo.jpg"),
+                child: Image.asset( "assets/images/Photo.jpg"),
                 ),
             ),
             ListTile(
